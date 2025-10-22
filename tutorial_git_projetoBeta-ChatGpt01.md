@@ -1,12 +1,12 @@
 # 🧭 Guia de Colaboração no Projeto `projetoBeta`
 
-Este documento define o **fluxo de trabalho Git padronizado** para o projeto **`projetoBeta`**, com o objetivo de manter organização e controle de versões entre os colaboradores.
+Este documento define o **fluxo de trabalho Git padronizado** (Feature Branch Workflow) para o projeto **`projetoBeta`**, com o objetivo de manter organização e controle de versões entre os colaboradores.
 
 ---
 
 ## 👥 Participantes
 
-- **Radames** — mantenedor do repositório principal (branch `main`)
+- **Berola** — mantenedor do repositório principal (branch `main`)
 - **João** — colaborador (ex: branch `crudPessoa`)
 - **Maria** — colaboradora (ex: branch `crudPedido`)
 
@@ -14,7 +14,7 @@ Este documento define o **fluxo de trabalho Git padronizado** para o projeto **`
 
 ## 🔐 1. Acesso ao Repositório Privado
 
-Radames deve conceder acesso ao repositório privado:
+Berola deve conceder acesso ao repositório privado:
 
 ```bash
 # No GitHub (interface web)
@@ -29,7 +29,7 @@ Radames deve conceder acesso ao repositório privado:
 Cada colaborador deve clonar o repositório pela primeira vez:
 
 ```bash
-git clone git@github.com:rjhalmeman/projetoBeta.git
+git clone git@github.com:projeto_caminho_vivo/projetoBeta.git
 cd projetoBeta
 ```
 
@@ -91,7 +91,7 @@ git push origin crudPedido
 
 ## 🧑‍💻 7. Revisão e Aprovação
 
-- **Radames** revisa o código enviado via PR.
+- **Berola** revisa o código enviado via PR.
 - Se estiver tudo certo, ele executa o **merge**:
 
 ```bash
@@ -125,7 +125,7 @@ git pull origin main
 ## 📋 Exemplo de Fluxo Completo (João)
 
 ```bash
-git clone git@github.com:rjhalmeman/projetoBeta.git
+git clone git@github.com:projeto_caminho_vivo/projetoBeta.git
 cd projetoBeta
 git checkout -b crudPessoa
 # (faz alterações no código)
@@ -138,7 +138,7 @@ git push origin crudPessoa
 ## 📋 Exemplo de Fluxo Completo (Maria)
 
 ```bash
-git clone git@github.com:rjhalmeman/projetoBeta.git
+git clone git@github.com:projeto_caminho_vivo/projetoBeta.git
 cd projetoBeta
 git checkout -b crudPedido
 # (faz alterações no código)
@@ -159,4 +159,4 @@ git push origin crudPedido
 
 ---
 
-**Radames Halmeman — 2025**
+**Radames J. Halmeman — 2025**
